@@ -1,0 +1,24 @@
+s=input()
+x=[]
+for i in s:
+    x.append(i)
+print(x)
+y=list(set(x))
+n=len(y)
+print(y)
+print(n)
+k = {}
+d=k.values()
+for j in x:
+    if j in k:
+      k[j] +=1
+    else:
+      k[j] =1
+print(k.values())
+print(d)
+for m in range(2,n):
+    if n%i==0:
+        print("no")
+        break
+else:
+    print("yes")
